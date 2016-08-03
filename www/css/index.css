@@ -72,9 +72,9 @@ body {
 h1 {
     font-size:24px;
     font-weight:normal;
-    margin:0px;
+    margin:50px;
     overflow:visible;
-    padding:0px;
+    padding:10px;
     text-align:center;
 }
 
@@ -86,7 +86,10 @@ h1 {
     margin:0px 30px;
     padding:2px 0px;
 }
-
+p {
+    padding-right: 10px;
+    color: blue;
+}
 .event.listening {
     background-color:#333333;
     display:block;
@@ -112,4 +115,9 @@ h1 {
 .blink {
     animation:fade 3000ms infinite;
     -webkit-animation:fade 3000ms infinite;
+}
+#square {
+    width:50px;
+    height:50px;
+    border:2px solid #000;
 }
